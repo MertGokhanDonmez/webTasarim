@@ -1,0 +1,435 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+}
+body{
+    font-family: "72", "72full", Arial, Helvetica, sans-serif;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+.ustBar{
+    background-color: #2F3C48;
+    padding-bottom: 10px;
+    display: flex;
+    height: 50px;
+}
+.ustBar .acilirMenu{
+    padding-left: 15px;
+    padding-top: 15px;
+    
+}
+.ustBar .acilirMenu .fa-bars{
+    color:#CAE4FB;
+    font-size: 22px;
+    padding-top: 4px;
+}
+.ustBar .icon img{
+    height: 20px;
+    width: 47px;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.ustBar .arayuzAdi{
+    padding-top: 15px;
+    font-size: 25px;
+    color: white;
+    padding-left: 10px;
+}
+.ustBar{
+    display: flex;
+}
+.ustBar .fa-calendar-alt{
+    color:#CAE4FB;
+    padding-left:900px;
+    padding-top: 17px;
+    font-size: 22px;
+}
+.ustBar .fa-newspaper{
+    color: #CAE4FB;
+    padding-top: 17px;
+    font-size: 25px;
+    padding-left:30px;
+}
+.ustBar .hesap{
+    font-size: 22px;
+    color: #CAE4FB;
+    padding-top: 17px;
+    padding-left:30px;
+    font-size: 19px;
+}
+.ustBar .fa-chevron-down{
+    color: #CAE4FB;
+    padding-top: 20px;
+    font-size: 18px;
+    padding-left:10px;
+}
+
+
+.content .solBar{
+    background-color: #3F5161;
+    color: #F9F9F9;
+    width: 260px;
+    height: 868px;
+    display: flex;
+    flex-direction: column;
+}
+.content .solBar div{
+    padding:10px 3px;
+}
+.content .solBar div i{
+    padding-right: 15px;
+}
+.content .solBar .applications{
+    border-bottom: solid #4C6175 1px;
+    
+}
+.content .solBar .applications span{
+    padding-left: 5px;
+}
+.content .solBar .applications .fa-box-open{
+    color: #CAE4FB;
+}
+.content .solBar .services span{
+    padding-left: 5px;
+}
+.content .solBar .services .fa-puzzle-piece{
+    color: #CAE4FB;
+    padding-left: 5px;
+}
+.content .solBar .services{
+    border-bottom: solid #4C6175 1px;
+    padding-left: 4px;
+}
+
+.content .solBar .services .fa-chevron-down{
+    color: #CAE4FB;
+    padding-left: 125px;
+}
+.content .solBar .services .marketplace{
+    padding-left: 28px;
+    background-color: #496B8A;
+}
+.content .solBar .services .instances{
+    padding-left: 28px;
+}
+.content .solBar .services .user-provided{
+    padding-left: 29px;
+}
+.content .solBar .saphana{
+    border-bottom: solid #4C6175 1px;
+}
+.content .solBar .saphana span{
+    padding-left: 5px;
+}
+.content .solBar .saphana .fa-box{
+    color: #CAE4FB;
+    padding-left: 4px;
+}
+.content .solBar .saphana .fa-chevron-right{
+    padding-left: 115px;
+    color: #CAE4FB;
+}
+.content .solBar .portal{
+    border-bottom: solid #4C6175 1px;
+}
+.content .solBar .portal span{
+    padding-left: 5px;
+}
+.content .solBar .portal .fa-th{
+    color: #CAE4FB;
+    padding-left: 5px;
+
+}
+.content .solBar .routes{
+    border-bottom: solid #4C6175 1px;
+}
+.content .solBar .routes span{
+    padding-left: 4px;
+}
+.content .solBar .routes .fa-bullseye{
+    color: #CAE4FB;
+    padding-left: 5px;
+
+}
+.content .solBar .securityGroups span{
+   
+}
+.content .solBar .securityGroups {
+    border-bottom: solid #4C6175 1px;
+}
+.content .solBar .securityGroups .fa-user-lock{
+    color: #CAE4FB;
+    padding-left: 3px;
+
+}
+.content .solBar .events{
+    border-bottom: solid #4C6175 1px;
+}
+.content .solBar .events span{
+    padding-left: 5px;
+}
+.content .solBar .events .fa-calendar-check{
+    color: #CAE4FB;
+    padding-left: 5px;
+
+}
+.content .solBar .members{
+    border-bottom: solid #4C6175 1px;
+}
+.content .solBar .members span{
+    padding-left: 5px;
+}
+.content .solBar .members .fa-user-check{
+    color: #CAE4FB;
+    padding-left: 4px;
+}
+.content .solBar .bos{
+    height: 135px;
+    border-bottom: solid #0092D1 2px;
+}
+.content .solBar .usefulLinks{
+    border-bottom: solid #4C6175 1px;
+    
+}
+.content .solBar .usefulLinks span{
+    padding-left: 5px;
+}
+.content .solBar .usefulLinks .fa-question-circle{
+    color: #CAE4FB;
+    padding-left: 4px;
+
+}
+.content .solBar .legalInfo .fa-balance-scale{
+    color: #CAE4FB;
+    padding-left: 4px;
+}
+.content .solBar .legalInfo span{
+    padding-left: 5px;
+}
+.content{
+    display: flex;
+
+}
+.content .contentSag{
+    display: flex;
+    flex-direction: column;
+}
+.content .contentSag .ust{
+    width: 1200px;
+    height: 160px;
+}
+.content .contentSag .ust .enUst{
+    display: flex;
+    flex-direction: row;
+    color: #2EA5D9;
+    padding-left: 20px;
+    font-size: 18px;
+}
+.content .contentSag .ust .enUst .slash{
+    color:#E1E1E1;
+    font-size: 33px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+}
+.content .contentSag .ust .enUst .birinci{
+    padding-top: 14px;
+}
+.content .contentSag .ust .enUst .ikinci{
+    padding-top: 14px;
+}
+.content .contentSag .ust .enUst .ucuncu{
+    padding-top: 14px;
+}
+.content .contentSag .ust .enUst .dorduncu{
+    padding-top: 14px;
+}
+.content .contentSag .ust .enUst .besinci{
+    padding-top: 14px;
+}
+.content .contentSag .ust .ustOrta{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    font-size: 25px;
+    color: #333333;
+    width: 1230px;
+}
+.content .contentSag .ust .ara{
+    color: #7C7C7C;
+    font-size: 18px;
+    padding-left: 25px;
+    padding-top:5px;
+}
+.content .contentSag .ust .ustOrta .fa-question-circle{
+    margin-left: 755px;
+    color: #2EA5D9;
+}
+.content .contentSag .ust .ustAlt input{
+    margin-left: 985px;
+    font-size: 18px;
+    font-style: italic;
+    padding-right:60px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.content .contentSag .alt{
+    background-color:#FAFAFA;
+    width: 1257px;
+    height: 825px;
+    display: flex;
+}
+.content .contentSag .alt .baslik{
+    color: #0273b1;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.content .contentSag .alt .ozet{
+    color: #898989;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.content .contentSag .alt .sembol{
+    color: #0E98D4;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 30px;
+    
+}
+.content .contentSag .alt .icerik{
+    padding-left: 10px;
+    
+}
+.content .contentSag .alt .altSol .management .sembol-yazi{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+.content .contentSag .alt .altSol .autho .sembol-yazi{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+.content .contentSag .alt .altSol .destination .sembol-yazi{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+.content .contentSag .alt .altOrta .autoscaler .sembol-yazi{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+.content .contentSag .alt .altOrta .rules .sembol-yazi{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+.content .contentSag .alt .altOrta .enterprise .sembol-yazi{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+.content .contentSag .alt .altSag .logging .sembol-yazi{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+.content .contentSag .alt .altSag .connectivity .sembol-yazi{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+.content .contentSag .alt .altSag .feature .sembol-yazi{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+.content .contentSag .alt .icerik{
+    color: #4d4d4d;
+}
+.content .contentSag .alt .altSol .management{
+    margin-left: 15px;
+    margin-top: 15px;
+    border: solid #E5E5E5 1px;
+    width: 317px;
+    height: 180px;
+    background-color: white;
+}
+.content .contentSag .alt .altOrta .autoscaler{
+    margin-left: 10px;
+    margin-top: 15px;
+    border: solid #E5E5E5 1px;
+    width: 317px;
+    height: 180px;
+    background-color: white;
+}
+.content .contentSag .alt .altSag .logging{
+    margin-left: 10px;
+    margin-top: 15px;
+    border: solid #E5E5E5 1px;
+    width: 317px;
+    height: 180px;
+    background-color: white;
+}
+.content .contentSag .alt .altSol .autho{
+    margin-left: 15px;
+    margin-top: 10px;
+    border: solid #E5E5E5 1px;
+    width: 317px;
+    height: 180px;
+    background-color: white;
+}
+.content .contentSag .alt .altOrta .rules{
+    margin-left: 10px;
+    margin-top: 10px;
+    border: solid #E5E5E5 1px;
+    width: 317px;
+    height: 180px;
+    background-color: white;
+}
+.content .contentSag .alt .altSag .connectivity{
+    margin-left: 10px;
+    margin-top: 10px;
+    border: solid #E5E5E5 1px;
+    width: 317px;
+    height: 180px;
+    background-color: white;
+}
+.content .contentSag .alt .altSol .destination{
+    margin-left: 15px;
+    margin-top: 10px;
+    border: solid #E5E5E5 1px;
+    width: 317px;
+    height: 180px;
+    background-color: white;
+}
+.content .contentSag .alt .altOrta .enterprise{
+    margin-left: 10px;
+    margin-top: 10px;
+    border: solid #E5E5E5 1px;
+    width: 317px;
+    height: 180px;
+    background-color: white;
+}
+.content .contentSag .alt .altSag .feature{
+    margin-left: 10px;
+    margin-top: 10px;
+    border: solid #E5E5E5 1px;
+    width: 317px;
+    height: 180px;
+    background-color: white;
+}
+.content .contentSag .alt .sembol .fa-puzzle-piece{
+    color:black;
+}
